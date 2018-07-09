@@ -1,0 +1,1 @@
+﻿Hello {0},<br /><br />Please click the following link to comfirm your account <br /><a href = '{1}'>Click here to activate your account.</a><br /><br />Thanks

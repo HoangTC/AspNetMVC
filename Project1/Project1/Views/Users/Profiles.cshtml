@@ -1,0 +1,93 @@
+﻿@model Project1.Models.User
+
+@{
+    ViewBag.Title = "Profiles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int i = 0;
+}
+
+<h2>QUẢN LÝ THÔNG TIN TÀI KHOẢN</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Username)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Username)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+        </dl>
+    </div>
+}
+<hr />
+@*<div>
+        @Html.ActionLink("Thay đổi mật khẩu", "ChangePassword", "Accounts", new { })
+    </div>*@
+
+
+<div>
+    @using (Html.BeginForm("ChangeRole", "Users"))
+    {
+        <ul>
+            @foreach (var item in ViewBag.ListRole)
+            {
+                <li>
+                    <input class="form-control single-line" data-val="true" id="[@i].Id" name="[@i].Id" type="hidden" value="@item.Id">
+                    @if (ViewBag.LstRole.Contains(item.Name))
+                    {
+                        <input class="" data-val="true" id="[@i].Name" name="[@i].Name" type="checkbox" value="@item.Name" checked>
+                    }
+                    else
+                    {
+                        <input class="" data-val="true" id="[@i].Name" name="[@i].Name" type="checkbox" value="@item.Name">
+                    }
+                    <label>@item.Name</label>
+                </li>
+                i++;
+            }
+        </ul>
+        i = 0;
+        <input type="submit" value="Change Role" class="btn btn-danger" />
+    }
+</div>
+<hr />
+<div>
+    @using (Html.BeginForm("ChangePermission", "Users"))
+    {
+        <ul>
+            @foreach (var item in ViewBag.ListPermission)
+            {
+                <li>
+                    <input class="form-control single-line" data-val="true" id="[@i].Id" name="[@i].Id" type="hidden" value="@item.Id">
+                    <input class="form-control single-line" data-val="true" id="[@i].CodeName" name="[@i].CodeName" type="hidden" value="@item.CodeName">
+                    @if (ViewBag.LstPermission.Contains(item.CodeName))
+                    {
+                        <input class="" data-val="true" id="[@i].Name" name="[@i].Name" type="checkbox" value="@item.Name" checked>
+                    }
+                    else
+                    {
+                        <input class="" data-val="true" id="[@i].Name" name="[@i].Name" type="checkbox" value="@item.Name">
+                    }
+                    <label>@item.Name</label>
+                </li>
+                i++;
+            }
+        </ul>
+        <input type="submit" value="Change Permission" class="btn btn-danger" />
+    }
+</div>

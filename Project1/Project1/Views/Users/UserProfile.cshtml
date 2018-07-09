@@ -1,0 +1,86 @@
+﻿@model Project1.Models.User
+
+@{
+    ViewBag.Title = "User Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profiles</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>User</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Thay đổi mật khẩu", "ChangePassword", "Accounts")
+</div>
+
+
+<div>
+    <ul>
+        @foreach (var item in ViewBag.ListRole)
+        {
+            <li>
+                @if (ViewBag.LstRole.Contains(item.Name))
+                {
+                    <input type="checkbox" disabled checked>
+                }
+                else
+                {
+                    <input type="checkbox" disabled>
+                }
+                <label>@item.Name</label>
+            </li>
+        }
+    </ul>
+</div>
+
+<div>
+    <ul>
+        @foreach (var item in ViewBag.ListPermission)
+        {
+            <li>
+                @if (ViewBag.LstPermission.Contains(item.CodeName))
+                {
+                    <input class="" type="checkbox" disabled checked>
+                }
+                else
+                {
+                    <input class="" disabled type="checkbox">
+                }
+                <label>@item.Name</label>
+            </li>
+        }
+    </ul>
+</div>

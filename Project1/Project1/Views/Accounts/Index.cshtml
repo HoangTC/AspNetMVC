@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $("#Btn1").click(function () {
+            $.ajax({
+                type: 'GET',
+                url: '/Home/Index',
+                contentType: 'application/json; charset=utf-8',
+                success: function (a, b, c) {
+                    //console.log(a);
+                    console.log(b);
+                    console.log(c);
+                },
+
+                error: function (a, b, c) {
+                    console.log(a);
+                    console.log(b);
+                    console.log(c);
+                    window.location.assign('@Url.Action("Index", "Home")');
+                }
+            });
+        });
+    </script>
+}

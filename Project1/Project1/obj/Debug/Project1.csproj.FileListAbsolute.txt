@@ -1,0 +1,120 @@
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\ApplicationInsights.config
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\csc.exe
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\vbc.exe
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\VBCSCompiler.exe
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Project1.dll.config
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Project1.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Project1.pdb
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Antlr3.Runtime.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\EntityFramework.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\EntityFramework.SqlServer.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.Web.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Newtonsoft.Json.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Helpers.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Mvc.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Optimization.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Razor.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.Razor.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\WebGrease.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\EntityFramework.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\EntityFramework.SqlServer.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.Web.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Helpers.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Mvc.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Optimization.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.Razor.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\System.Web.WebPages.Razor.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Antlr3.Runtime.pdb
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\bin\Newtonsoft.Json.xml
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.Migrations.Init.resources
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.dll
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.pdb
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+C:\Users\HoangTC\documents\visual studio 2015\Projects\Project1\Project1\obj\Debug\Project1.Migrations.Init1.resources
+C:\Users\HoangTC\Documents\Project1\Project1\bin\ApplicationInsights.config
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\csc.exe
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\vbc.exe
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\VBCSCompiler.exe
+C:\Users\HoangTC\Documents\Project1\Project1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Project1.dll.config
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Project1.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Project1.pdb
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Antlr3.Runtime.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\EntityFramework.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\EntityFramework.SqlServer.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.Web.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Newtonsoft.Json.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Helpers.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Mvc.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Optimization.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Razor.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.Razor.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\WebGrease.dll
+C:\Users\HoangTC\Documents\Project1\Project1\bin\EntityFramework.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\EntityFramework.SqlServer.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.Web.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Helpers.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Mvc.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Optimization.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.Razor.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\System.Web.WebPages.Razor.xml
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Antlr3.Runtime.pdb
+C:\Users\HoangTC\Documents\Project1\Project1\bin\Newtonsoft.Json.xml
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.Migrations.Init.resources
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.Migrations.Init1.resources
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.Cache
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.dll
+C:\Users\HoangTC\Documents\Project1\Project1\obj\Debug\Project1.pdb

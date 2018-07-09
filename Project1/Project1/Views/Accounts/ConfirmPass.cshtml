@@ -1,0 +1,49 @@
+﻿@model Project1.Models.User
+
+@{
+    ViewBag.Title = "Comfirm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Comfirm</h2>
+<h1>@ViewBag.Message</h1>
+
+@if (ViewBag.Id != null)
+{
+
+    using (Html.BeginForm("ConfirmPass", "Accounts", FormMethod.Post, new { id = "form-upload", @Class = "form-horizontal", enctype = "multipart/form-data" }))
+    {
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <input type="hidden" name="AccountId" value="@ViewBag.Id" />
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.RPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.RPassword, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.RPassword, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
